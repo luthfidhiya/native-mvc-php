@@ -10,6 +10,7 @@
 
 <body>
    <h1>Halaman About method Index</h1>
+   <br><?= $data['nama']; ?>
 </body>
 
 </html>

@@ -1,0 +1,4 @@
+baseurl()
+fix routing
+fix view
+literasi PDO

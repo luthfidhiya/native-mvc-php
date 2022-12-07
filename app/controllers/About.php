@@ -2,9 +2,13 @@
 
 class About extends Controller
 {
-   public function index($name = 'luthfi', $job = 'PKL', $umur)
+   public function index($name = 'luthfi')
    {
-      $this->view('about/index');
+      $data['nama'] = $name;
+      echo '<pre>';
+      print_r($this->model('User_model')->getUser());
+      die;
+      $this->view('about/index', $data);
    }
 
    public function page()
