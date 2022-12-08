@@ -12,5 +12,6 @@ class User_model
       $this->db->query('SELECT * FROM List_Product WHERE CATEGORY_ID=:id');
       $this->db->bind('id', $id);
       return $this->db->resultSet();
+      // return $this->db->rowCount();
    }
 }
