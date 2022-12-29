@@ -1,7 +1,4 @@
 <?php
-
-use function PHPSTORM_META\type;
-
 class Database
 {
    private $host = DB_HOST;

@@ -1,5 +1,5 @@
 <?php
-class User_model
+class M_about
 {
 
    public function __construct()

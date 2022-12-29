@@ -10,7 +10,10 @@
 
 <body>
    <h1>Halaman About method Index</h1>
-   <br><?= $data['nama']; ?>
+   <br><?= $nama ?>
+   <?php echo '<pre>';
+   print_r($user);
+   die; ?>
 </body>
 
 </html>
