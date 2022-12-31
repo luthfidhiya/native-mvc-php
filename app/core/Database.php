@@ -53,7 +53,11 @@ class Database
 
    public function execute()
    {
-      $this->stmt->execute();
+      try {
+         $this->stmt->execute();
+      } catch (PDOException $e) {
+         die($e->getMessage());
+      }
    }
 
    public function resultSet()
